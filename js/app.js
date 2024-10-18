@@ -16,7 +16,6 @@ let parsed_click_force_lvl = parseFloat(click_force_lvl.innerHTML);
 //Cat click incrementation
 function incrementLP() {
     parsedLp = parsedLp + (1 * parsed_click_force_lvl);
-    console.log(parsedLp); 
     lp.innerHTML = parsedLp.toFixed(2);
 }
 
