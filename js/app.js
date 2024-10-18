@@ -1,8 +1,17 @@
 let lp = document.querySelector('#lp-count');
-let click_multiplier = 1;
-let click_cost = document.querySelector('#click_cost');
+let parsedLp = parseFloat(lp.innerHTML);
+
+let clickers = document.querySelector('#clicker_cost');
+let parsedClickersCost = parseFloat(clickers.innerHTML);
 
 function incrementLP() {
-    lp.innerHTML = parseFloat(lp.innerHTML) + 1 * click_multiplier;
-    lp.innerHTML = parseFloat(lp.innerHTML).toFixed(1);
+    parsedLp += 1;
+    lp.innerHTML = parsedLp
+}
+
+function buyClicker() {
+    if (parsedLp >= parsedClickersCost) {
+        parsedLp -= parsedClickersCost;
+        lp.innerHTML = parsedLp
+    }
 }
