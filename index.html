@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>W.I.P. Cute Cat Clicker</title>
+    <script src="js/app.js" defer></script>
+    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
+    <main>
+        <div class="top">
+            <h1>Love Point : <span id="lp-count">1.0</span> <img src="assets/icons/heart.svg" alt="Heart"></h1>
+            <img src="assets/pastleCat.png" alt="A pastel cute cat" class="cat-img" onclick="incrementLP()" draggable="false">
+        </div>
+        <div class="bot">
+            <div class="upgrade_container">
+                <div class="upgrade click">
+                    <div class="upgrade_img">
+                        <img src="assets/icons/click.svg" alt="Click icon">
+                    </div>
+                    <div class="upgrade_buy">
+                        <p>Click Multiplier : <span id="click_multiplier">1</span></p>
+                        <button class="upgrade_btn">Buy</button>
+                        <p>Cost : <span id="click_cost">10</span> <img src="assets/icons/heart.svg" alt="Heart icon"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+</body>
+</html>

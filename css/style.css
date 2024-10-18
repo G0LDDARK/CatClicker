@@ -1,0 +1,152 @@
+/* 
+** COLOR SCHEME
+** Purple : B983FF
+** Dark blue : 94B3FD
+** Mid blue: 94DAFF
+** Light Blue : 99FEFF
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    /* user-select: none; */
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Cherry Bomb One", system-ui;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    background: rgb(153,254,255);
+    background: linear-gradient(180deg, rgba(153,254,255,1) 10%, rgba(148,179,253,1) 100%);
+}
+
+.top {
+    width: 100%;
+    height: 55%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 80px;
+    background: -webkit-linear-gradient(180deg, rgb(185, 131, 255), rgba(185, 131, 255, 0.9));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bot {
+    width: 100%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.cat-img {
+    transition-duration: 50ms;
+    width: 250px;
+}
+
+.cat-img:hover {
+    transition-duration: 50ms;
+    cursor: pointer;
+}
+
+.cat-img:active {
+    transform: translateY(-4px);
+}
+
+.upgrade_container {
+    overflow-y: scroll;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    scrollbar-color: #B983FF transparent;
+}
+
+.upgrade {
+    margin: 30px;
+    border: 2px #B983FF solid;
+    border-radius: 50px;
+    width: 650px;
+    height: 150px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.upgrade_img {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+}
+
+.upgrade_img img{
+    width: 80px;
+}
+
+.upgrade_buy {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 70%;
+    height: 100%;
+}
+
+.upgrade_btn {
+    text-align: center;
+    transition-duration: 0.5s;
+    width: 30%;
+    height: 30%;
+    font-family: "Cherry Bomb One", system-ui;
+    background-color: transparent;
+    color: #B983FF;
+    font-size: 20px;
+    border: 2px #B983FF solid;
+    border-radius: 50px;
+}
+
+.upgrade_btn:hover {
+    transition-duration: 0.5s;
+    transform: translateY(-2px);
+    -webkit-box-shadow: 5px 5px 15px 0px #000000; 
+    box-shadow: 5px 5px 15px 0px #000000;
+}
+
+.upgrade_btn:active {
+    transition-duration: 0.5s;
+    transform: scale(0.95);
+}
+
+p {
+    font-size: 25px;
+    color: #B983FF;
+}
+
+p img {
+    width: 20px;
+}
+
