@@ -1,9 +1,9 @@
-/* 
+/*
 ** COLOR SCHEME
 ** Purple : B983FF
 ** Dark blue : 83B8C6
 ** Light blue : E1F6F2
-** Light green : A9E4DE 
+** Light green : A9E4DE
 */
 
 @import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
@@ -47,7 +47,14 @@ h1 {
     -webkit-text-fill-color: transparent;
 }
 
-.bot {
+h2 {
+    font-size: 40px;
+    background: -webkit-linear-gradient(180deg, rgb(185, 131, 255), rgba(185, 131, 255, 0.9));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.bottom {
     width: 100%;
     height: 45%;
     display: flex;
