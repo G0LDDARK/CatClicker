@@ -1,5 +1,4 @@
-# CatClicker
-<img src="assets/pastleCat.png" alt="The cute cat you should click on!"> <br>
+# CatClicker <img src="assets/pastleCat.png" alt="The cute cat you should click on!"> <br>
 CatClicker is a cookie clicker-like game, but it's cats programmed in JavaSrcipt <br>
 Last "playable" update can be played at https://catclicker.glddrk.fr <br>
 Thanks for playing and enjoy!
