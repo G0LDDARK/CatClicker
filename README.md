@@ -19,6 +19,9 @@ Thanks for playing and enjoy!
 #### Major changes:
 - Switching to TypeScript
 
+#### Minor changes:
+- Try to fix the repo branching
+
 ### 0.0.3 (30 JAN 25)
 #### Major changes:
 - Refactorisation
