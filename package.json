@@ -1,0 +1,29 @@
+{
+  "name": "catclicker",
+  "version": "0.0.4",
+  "description": "CatClicker is a cookie clicker-like game, but it's cats programmed in TypeSrcipt",
+  "main": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/G0LDDARK/CatClicker.git"
+  },
+  "keywords": [
+    "Cat",
+    "Clicker"
+  ],
+  "author": "GLDDRK",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/G0LDDARK/CatClicker/issues"
+  },
+  "homepage": "https://github.com/G0LDDARK/CatClicker#readme",
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  },
+  "scripts": {
+  "build": "tsc",
+  "watch": "tsc --watch",
+  "start": "npx http-server"
+}
+
+}
