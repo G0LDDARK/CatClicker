@@ -1,5 +1,5 @@
 # CatClicker
-<img src="assets/pastle_cat.png" alt="The cute cat you should click on!"> <br>
+<img src="src/assets/pastle_cat.png" alt="The cute cat you should click on!"> <br>
 CatClicker is a cookie clicker-like game, but it's cats and coded in TypeSrcipt / HTML / CSS <br>
 Last "playable" update can be played at https://catclicker.glddrk.fr <br>
 Thanks for playing and enjoy!
