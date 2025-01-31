@@ -8,9 +8,9 @@ Thanks for playing and enjoy!
 
 ### 0.0.3 (30 JAN 25)
 #### Major changes:
--Refactorisation
-    -Created buy function to have a reusable function
-    -Changed img name
+- Refactorisation
+    - Created buy function to have a reusable function
+    - Changed img name
 
 -Removed little anti-cheat:
     -Would probably never be brought back up
