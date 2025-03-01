@@ -1,44 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <title>W.I.P. Cute Cat Clicker</title>
-        <script src="src/js/game.js" defer></script>
-        <link rel="stylesheet" href="src/css/style.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="shortcut icon" href="src/assets/icons/favicon.ico" type="image/x-icon">
-    </head>
-    <body>
-        <main>
-            <div class="top">
-                <h1>Love Points : <span id="lp_count">10.00</span> <img src="src/assets/icons/heart.svg" alt="Heart icon"></h1>
-                <h2>Love Points per seconde : <span id="lpps">0.00</span></h2>
-                <img src="src/assets/pastle_cat.png" alt="The cute cat you should click on!" class="cat-img" onclick="cat_clicked()" draggable="false">
-            </div>
-            <div class="bottom">
-                <div class="upgrade_container">
-                    <div class="upgrade click_force">
-                        <div class="upgrade_img">
-                            <img src="src/assets/icons/click.svg" alt="Clicker icon">
-                        </div>
-                        <div class="upgrade_buy">
-                            <p>Click force : <span id="click_force_lvl">1.00</span></p>
-                            <p>Cost : <span id="click_force_cost">10.00</span> <img src="src/assets/icons/heart.svg" alt="Heart icon"></p>
-                            <button class="upgrade_btn" onclick="buy('clicker')">Buy</button>
-                        </div>
-                    </div>
-                    <div class="upgrade cuddle_power">
-                        <div class="upgrade_img">
-                            <img src="src/assets/icons/cuddle.svg" alt="Cuddle icon">
-                        </div>
-                        <div class="upgrade_buy">
-                            <p>Cuddle level : <span id="cuddle_power_lvl">0.00</span></p>
-                            <p>Cost : <span id="cuddle_power_cost">50.00</span> <img src="src/assets/icons/heart.svg" alt="Heart icon"></p>
-                            <button class="upgrade_btn" onclick="buy('cuddle')">Buy</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </main>
-    </body>
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="src/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cat Clicker</title>
+</head>
+<body>
+    <section id="cat">
+        <div id="img">
+            <img src="src/assets/pastle_cat.png" alt="The cute cat you click on" onclick="clickCat()">
+        </div>
+        <div id="info">
+            <h1>Love points : <span id="love_points">NONE</span></h1>
+            <h2>Love points per seconds : <span id="love_points_ps">NONE</span></h2>
+        </div>
+    </section>
+    <section id="upgrades">
+
+    </section>
+    <script src="src/js/game.js"></script>
+</body>
 </html>
